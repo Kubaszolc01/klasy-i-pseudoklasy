@@ -1,0 +1,35 @@
+h1:hover{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+a:active{
+    color: tomato;
+}
+
+input:required{
+    box-shadow: 0 0 10px darkorange;
+}
+
+input:checked{
+    box-shadow: 0 0 10px darkorange;
+}
+
+.paragraph:hover{
+    color: blue;
+}
+.paragraph::first-line{
+    color: brown;
+}
+.paragraph::first-letter{
+    font-size: 2rem;
+}
+.paragraph::selection{
+    background-color: black;
+    color: white;
+}
+.paragraph::after{
+    content: url(pingwin.png);
+}
